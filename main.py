@@ -285,5 +285,3 @@ while True:
                             attention_type=attention_type1
                             )
     print()
-
-#test again
