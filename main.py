@@ -186,14 +186,6 @@ def encodecustom(message, output_filename="same_message.wav", include_attention=
     writeaudio(output_filename, all_audio_samples, sample_rate=sample_rate)
     print("Encoding complete!")
 
-# Example Parameters for a Required Weekly Test (RWT)
-# ORG = WXR (National Weather Service)
-# EEE = RWT (Required Weekly Test)
-# Location = 024021 (Example: Montgomery County, Maryland)
-# Purge time = 0015 (15 minutes)
-# Issue time = 1721200 (Day 172 of the year, 12:00 UTC)
-# Station ID = KEC83/NWS (NOAA Weather Radio Station)
-
 length1 = 70
 
 print("=" * length1)
