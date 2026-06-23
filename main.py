@@ -217,8 +217,6 @@ print()
 print("To proceed, you must accept all legal risks and responsibilities.")
 accept = input("Type 'I understand' to continue, or anything else to exit: ").lower()
 if accept == "i understand":
-    with open("legalwarningread", "w") as file:
-        file.write("User has read and understands the legal warning")
     print("\n")
 else:
     print("\nUnderstood, exiting safely.")
